@@ -1,0 +1,12 @@
+name: potato
+description: An esoteric programming language
+version: 1.0.0
+homepage: https://deeprobin.de/
+author: Robin Lindner <robin@deeprobin.de>
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
+
+dev_dependencies:
+  pedantic: ^1.0.0
+  test: ^1.0.0

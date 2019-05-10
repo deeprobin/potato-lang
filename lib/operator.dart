@@ -1,0 +1,1 @@
+const OPERATOR_TO = "==>";
