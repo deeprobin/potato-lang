@@ -7,6 +7,11 @@ author: Robin Lindner <robin@deeprobin.de>
 environment:
   sdk: '>=2.2.0 <3.0.0'
 
+dependencies:
+  archive: ^2.0.10
+  random_string: ^1.1.0
+  args: ^1.5.2
+
 dev_dependencies:
   pedantic: ^1.0.0
   test: ^1.0.0

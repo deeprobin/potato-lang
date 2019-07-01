@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:potato/compiler.dart';
 import 'package:potato/executor.dart';
 
 executeFile(File file){
@@ -10,4 +11,8 @@ executeFile(File file){
 
 execute(String code){
   new PotatoExecutor().execute(code);
+}
+
+compile(List<String> files, String mainFile, String outFile){
+  new PotatoCompiler().compile(files, mainFile, outFile);
 }
