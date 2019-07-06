@@ -1,0 +1,1 @@
+dart ./potatod.dart %*
